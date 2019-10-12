@@ -31,6 +31,7 @@ void Brass::Deposit(double amt)
 //取款
 void Brass::Withdraw(double amt)
 {
+	printf("Brass\n");
 	format initialState = setFormat();
 	precis prec = cout.precision(2);
 
@@ -87,6 +88,7 @@ void BrassPlus::ViewAcct() const
 	precis prec = cout.precision(2);
 
 	Brass::ViewAcct();
+
 	cout << "Maximum loan: $" << maxLoan << endl;
 	cout << "Owed to bank: $" << owesBank << endl;
 	cout.precision(3); //###.### format
@@ -96,6 +98,7 @@ void BrassPlus::ViewAcct() const
 
 void BrassPlus::Withdraw(double amt)
 {
+	printf("BrassPlus\n");
 	format initialState = setFormat();
 	precis prec = cout.precision(2);
 
