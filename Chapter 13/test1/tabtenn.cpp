@@ -7,3 +7,8 @@ void TableTennisPlayer::Name() const
 {
 	std::cout << lastname << ", " << firstname;
 }
+
+void TableTennisPlayer::Name(int i)
+{
+	cout << "input: " << i << endl;
+}

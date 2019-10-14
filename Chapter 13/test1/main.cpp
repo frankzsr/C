@@ -19,5 +19,14 @@ int main()
 	else {
 		cout << ": hasn't a table.\n";
 	}
+
+	player1.Name(10);
+	player1.Name();
+	if (player1.HasTable())
+		cout << ": has a table.\n";
+	else {
+		cout << ": hasn't a table.\n";
+	}
+
 	return 0;
 }
