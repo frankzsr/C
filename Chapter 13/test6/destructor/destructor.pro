@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        destructor.cpp \
         main.cpp
+
+HEADERS += \
+    destructor.h
