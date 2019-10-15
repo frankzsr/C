@@ -68,6 +68,7 @@ public:
 	void ResetMax(double m) { maxLoan = m; }
 	void ResetRate( double r ) { rate = r; }
 	void ResetOwes() { owesBank = 0; }
+//	virtual ~BrassPlus() {}
 };
 
 #endif // ACCTABC_H
